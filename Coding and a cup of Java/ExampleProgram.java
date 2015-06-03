@@ -10,9 +10,11 @@ public class ExampleProgram {
     //We need a scanner to get some user input
     Scanner myScanner = new Scanner(System.in);
     
-    //print out the result
-    System.out.println("The sum of the integers is");
-    System.out.println(myScanner.nextInt() + myScanner.nextInt());
+    int i1 = myScanner.nextInt();
+    int i2 = myScanner.nextInt();
+    int sum = i1 + i2;
+    
+    System.out.println("The sum of the integers is " + sum);
   }
   
 }
